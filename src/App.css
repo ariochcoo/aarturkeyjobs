@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.menu {
+  background-image: linear-gradient(to top left, #d31e06 0%, #88060a 100%);
+}
+
+.cardMenu {
+  background-image: linear-gradient(to top left, #f37e6f 0%, #fa1f22 100%);
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.moduleMenu {
+  background-image: linear-gradient(to top left, #13971e4b 0%, #129719 100%);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
